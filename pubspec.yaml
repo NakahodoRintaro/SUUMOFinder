@@ -1,0 +1,53 @@
+name: suumo_finder_app
+description: SUUMO物件スコアリング＆検索アプリ
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI関連
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.5.0
+  shimmer: ^3.0.0
+  
+  # 状態管理
+  provider: ^6.1.1
+  
+  # ローカルストレージ
+  shared_preferences: ^2.2.2
+  
+  # 地図表示
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  
+  # ネットワーク
+  http: ^1.1.2
+  
+  # ユーティリティ
+  intl: ^0.19.0
+  url_launcher: ^6.2.2
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/data/
+    - assets/images/
+  
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: fonts/CustomIcons.ttf
