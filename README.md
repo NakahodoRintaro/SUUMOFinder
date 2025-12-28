@@ -165,7 +165,7 @@ final weights = {
 };
 ```
 
-## 🚀 ビルドと公開
+## ビルドと公開
 
 ### Androidビルド
 ```bash
