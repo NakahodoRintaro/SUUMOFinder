@@ -1,0 +1,2 @@
+# SUUMOFinder
+SUUMOの物件データをスコアリングして最適な物件を見つけるFlutterアプリケーション
